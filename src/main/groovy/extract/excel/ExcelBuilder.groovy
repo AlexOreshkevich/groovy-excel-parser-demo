@@ -1,6 +1,10 @@
 package extract.excel
 
-import org.apache.poi.hssf.usermodel.*
+
+import org.apache.poi.hssf.usermodel.HSSFCell
+import org.apache.poi.hssf.usermodel.HSSFDateUtil
+import org.apache.poi.hssf.usermodel.HSSFRow
+import org.apache.poi.hssf.usermodel.HSSFWorkbook
 
 /**
  * Groovy Builder that extracts data from Microsoft Excel spreadsheets.
